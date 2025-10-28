@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'ui-icons';
+  src:
+       url('ui-icons.woff2') format('woff2'),
+       url('ui-icons.woff') format('woff'),
+       url('ui-icons.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="ui-"]:before {
+  font-family: "ui-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+} /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */
+.ui-arrow-down:before { content: '\f123'; } /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */
+
+
+
+/*
+    Icon Font orion-font generated from orioniconlibrary.com
+  */
+
+  @font-face {
+  font-family: "orion-font";
+  src: 
+       url("orion-font.woff2") format("woff2"),
+       url("orion-font.woff") format("woff"),
+       url("orion-font.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "orion-font";
+    src: url("orion-font.svg#orion-font") format("svg");
+  }
+}
+
+  .o-certificate-1::before,
+  .o-contact-1::before,
+  .o-edit-folder-1::before,
+  .o-handshake-1::before,
+  .o-pin-1::before,
+  .o-read-email-1::before {
+    display: inline-block;
+  font-family: "orion-font";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  }
+.o-certificate-1::before { content: "\f268"; }
+.o-contact-1::before { content: "\f26e"; }
+.o-edit-folder-1::before { content: "\f278"; }
+.o-handshake-1::before { content: "\f27c"; }
+.o-pin-1::before { content: "\f25c"; }
+.o-read-email-1::before { content: "\f28f"; }

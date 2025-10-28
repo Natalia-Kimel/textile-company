@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Toque Confort - Contato</title>
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Além disso, valorizamos a satisfação de nossos clientes.">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/font-icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/latest3.jpeg">
+
+</head>
+
+<body>
+
+  <main class="main-wrapper">
+
+    <!-- Navigation -->
+    <header class="nav">
+      <div class="nav__holder nav--sticky">
+        <div class="container-fluid container-semi-fluid nav__container">
+          <div class="flex-parent">
+
+            <div class="nav__header">
+              <!-- Logo -->
+              <a href="index.html" class="logo-container">
+                <div style="font-weight: 700;">Toque Confort</div>
+              </a>
+
+              <!-- Mobile toggle -->
+              <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="nav__icon-toggle-bar"></span>
+                <span class="nav__icon-toggle-bar"></span>
+                <span class="nav__icon-toggle-bar"></span>
+              </button> 
+            </div>                      
+
+            <!-- Navbar -->
+            <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse nav--align-right">
+              <ul class="nav__menu">
+                <li class="nav__dropdown active">
+                  <a href="index.html" aria-haspopup="true">Página inicial</a>
+                </li>
+                <li class="nav__dropdown">
+                  <a href="index.html" aria-haspopup="true">Sobre nós</a>
+                  <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false"></i>
+                  <ul class="nav__dropdown-menu">
+                    <li><a href="about.html">Informação</a></li>
+                    <li><a href="services.html">Produtos</a></li>
+                    <li><a href="pricing.html">Preços</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="contact.html">Contato</a>
+                </li>
+              </ul> <!-- end menu -->
+            </nav> <!-- end nav-wrap -->            
+
+
+            <!-- Nav Right -->
+            <div class="nav__right d-none d-lg-flex">
+              <div class="nav__right-item">
+                <a href="mailto:toqueconfort@gmail.com">
+                  toqueconfort@gmail.com</a
+                >
+              </div>
+
+            </div> <!-- end nav right -->
+        
+          </div> <!-- end flex-parent -->
+        </div> <!-- end container -->
+
+      </div>
+    </header> <!-- end navigation -->
+
+    <div class="content-wrapper oh">
+
+      <!-- Page Title -->
+      <section class="page-title bg-img bg-overlay" style="background-image: url(img/contact.jpg)">
+        <div class="container">
+          <div class="page-title__holder">
+            <h1 class="page-title__title">Contato</h1>
+            <p class="subtitle">Sinta-se à vontade para entrar em contato conosco.</p>
+          </div>
+        </div>
+      </section> <!-- end page title -->
+
+			<!-- Contact Title -->
+      <section class="section-wrap bg-dark">
+        <div class="container">
+          <div class="title-row mb-56">
+            <h2 class="section-title text-center">Vamos criar aconchego juntos</h2>
+          </div>
+        </div>        
+      </section> <!-- end contact title -->
+
+      <!-- Service Boxes -->
+      <div class="section-wrap offset-top-100 pt-0">
+        <div class="container">      
+          <div class="row">
+
+            <div class="col-lg-4">
+              <div class="service box-shadow hover-line hover-down">
+                <i class="service__icon o-contact-1"></i>
+                <h4 class="service__title">Ligue para nós</h4>
+                <p class="service__text"><a href="tel:+55-65-88379-4561">+55 65 88379-4561</a></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="service box-shadow hover-line hover-down">
+                <i class="service__icon o-read-email-1"></i>
+                <h4 class="service__title">Envie-nos um e-mail</h4>
+                <p class="service__text"><a href="mailto:toqueconfort@gmail.com">toqueconfort@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="service box-shadow hover-line hover-down">
+                <i class="service__icon o-pin-1"></i>
+                <h4 class="service__title">Visite-nos</h4>
+                <a target="_blank" href="https://maps.app.goo.gl/i9WB9ZLtB7BB88Au5">R. da Consolação, Jardim Paulista, São Paulo, Brasil</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> <!-- end service boxes -->
+
+      <!-- Contact Form -->
+      <section class="section-wrap bg-light">
+        <div class="container">
+
+          <div class="title-row text-center">
+            <h2 class="section-title">Envie-nos uma mensagem</h2>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <!-- Contact Form -->
+              <form id="contact-form" class="contact-form" method="post" action="thanks_form.php">
+
+                <div class="form-group">
+                  <input name="name" class="form-group__input" id="name" type="text" placeholder="Nome *" required>
+                </div>
+
+                <div class="form-group">
+                  <input name="email" id="email" type="email" placeholder="E-mail *" required>
+                </div>
+
+                <div class="contact-message">
+                  <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                </div>
+
+                <div class="consent-checkbox">
+                  <label>
+                    <input class="consent-checkbox__input" type="checkbox" name="your-consent" required>
+                    <span class="consent-checkbox__label">Eu concordo com a <a href="privacy-policy.html">política de privacidade</a>.</span>
+                  </label> 
+                </div>
+
+                <input type="submit" class="btn btn--lg btn--color btn--wide btn--button" value="Enviar mensagem" id="submit-message">
+                <div id="msg" class="message"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </section> <!-- end contact form -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__widgets">
+            <div class="row">
+
+              <div class="col-lg-3 col-md-6">
+                <div class="widget widget-about-us">
+                  <!-- Logo -->
+                  <a href="index.html" class="logo-container flex-child">
+                    Toque Confort
+                  </a>
+                </div>
+              </div> <!-- end about us -->
+
+              <div class="col-lg-3 col-md-6">
+                <div class="widget widget-address">
+                  <h5 class="widget-title">Empresa</h5>
+                  <ul>
+                    <li><a target="_blank" href="https://maps.app.goo.gl/i9WB9ZLtB7BB88Au5">R. da Consolação, Jardim Paulista, São Paulo, Brasil</a></li>
+                    <li>
+                      <span>Telefone: </span>
+                      <a href="tel:+55-65-88379-4561">+55 65 88379-4561</a>
+                    </li>
+                    <li>
+                      <span>E-mail: </span>
+                      <a href="mailto:toqueconfort@gmail.com">
+                        toqueconfort@gmail.com</a
+                      > 
+                    </li>
+                  </ul>
+                </div>
+              </div>           
+
+            </div>
+          </div>    
+        </div> <!-- end container -->
+
+        <div class="footer__bottom">
+          <div class="container">
+            <div class="row">              
+              <div class="col-lg-6">
+                <div class="widget widget_nav_menu">
+                  <ul>
+                    <li><a href="about.html">Sobre nós</a></li>
+                    <li><a href="services.html">Produtos</a></li>
+                    <li><a href="pricing.html">Preços</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms of Use</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div> <!-- end footer bottom -->
+      </footer> <!-- end footer -->
+
+    </div> <!-- end content wrapper -->
+  </main> <!-- end main wrapper -->
+  <script src="script.js"></script>
+</body>
+</html>
